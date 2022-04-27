@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/activity_main">
+    <!-- ########## MAIN LINE ########## -->
+    <View
+        android:layout_width="10sp"
+        android:layout_height="800sp"
+        android:layout_marginStart="10sp"
+        android:background="@color/text_std"
+        />
+    <!-- ########## MAIN LINE ########## -->
+
+    <!-- ########## MID LINE ########## -->
+    <View
+        android:id="@+id/mid_line"
+        android:layout_width="200sp"
+        android:layout_height="6sp"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="130sp"
+        android:background="#FFFFFF" />
+    <!-- ########## MID LINE ########## -->
+
+    <!-- ########## TOP LINE ########## -->
+    <View
+        android:layout_width="60sp"
+        android:layout_height="4sp"
+        android:layout_marginStart="200sp"
+        android:layout_marginTop="110sp"
+        android:background="@color/primary_std"
+        android:rotation="-45" />
+
+    <View
+        android:layout_width="70sp"
+        android:layout_height="4sp"
+        android:layout_marginStart="250sp"
+        android:layout_marginTop="90sp"
+        android:background="@color/primary_std" />
+    <!-- ########## TOP LINE ########## -->
+
+    <!-- ########## BOT LINE ########## -->
+    <View
+        android:layout_width="100sp"
+        android:layout_height="6sp"
+        android:layout_marginStart="193sp"
+        android:layout_marginTop="165sp"
+        android:background="@color/secondary_std"
+        android:rotation="45" />
+
+    <View
+        android:layout_width="130sp"
+        android:layout_height="6sp"
+        android:layout_marginStart="276sp"
+        android:layout_marginTop="199sp"
+        android:background="@color/secondary_std" />
+    <!-- ########## BOT LINE ########## -->
+
+    <!-- ########## MINI LOGO ########## -->
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView"-->
+<!--        android:layout_width="100sp"-->
+<!--        android:layout_height="100sp"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginStart="10sp"-->
+<!--        android:layout_marginTop="7sp"-->
+<!--        android:layout_marginEnd="60sp"-->
+<!--        android:layout_marginBottom="10sp"-->
+<!--        android:contentDescription="@string/birradino_logo"-->
+<!--        app:srcCompat="@drawable/birradino_icon" />-->
+    <!-- ########## MINI LOGO ########## -->
+
+    <!-- ########## TEXT ########## -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40sp"
+        android:layout_marginTop="40sp"
+        android:fontFamily="@font/cour_bold"
+        android:text="Agenzia delle entrate"
+        android:textColor="@color/text_std"
+        android:textSize="32sp" />
+
+<!--    <TextView-->
+<!--        android:layout_width="160sp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="240sp"-->
+<!--        android:layout_marginTop="140sp"-->
+<!--        android:fontFamily="@font/cour_bold"-->
+<!--        android:text="Wlan\n    Kasper"-->
+<!--        android:textAlignment="textStart"-->
+<!--        android:textColor="@color/text_std"-->
+<!--        android:textSize="24sp" />-->
+    <!-- ########## TEXT ########## -->
+</merge>

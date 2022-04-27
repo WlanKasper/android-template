@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="std_btn_style">
+        <item name="android:layout_width">150sp</item>
+        <item name="android:layout_height">60sp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:backgroundTintMode">add</item>
+        <item name="android:textColor">@color/primary_std</item>
+    </style>
+</resources>

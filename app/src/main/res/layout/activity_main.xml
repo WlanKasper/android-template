@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/revers_background_gradient"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        tools:context=".MainActivity">
+
+        <include layout="@layout/header_std" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/mid_line"
+            android:layout_marginStart="50sp"
+            android:layout_marginTop="90sp"
+            android:layout_marginEnd="30sp"
+            android:layout_marginBottom="50sp"
+
+            android:fontFamily="@font/cour"
+            android:text="Un piccolo ufficio dell’agenzia delle entrate è composto di 2 sportelli per la  presentazione delle pratiche. Lo sportello 1 segue le pratiche della casa (IMU,  TARI), lo sportello 2 inoltre segue le pratiche di compravendita. All’entrata  dell’ufficio c’è un concierge che registra le persone in entrata nella struttura ed in  uscita da ogni singolo sportello."
+            android:textColor="@color/text_std"
+
+            android:textSize="18sp"
+
+            />
+
+        <include layout="@layout/main_btn" />
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="30sp"
+        android:layout_marginTop="510sp"
+        android:fontFamily="@font/cour_bold"
+        android:textColor="@color/text_std"
+        android:text="Start Game"
+        android:textSize="28sp" />
+
+    <View
+        android:layout_width="150sp"
+        android:layout_height="4sp"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="550sp"
+        android:background="@color/primary_std" />
+
+    <View
+        android:layout_width="75sp"
+        android:layout_height="4sp"
+        android:layout_marginStart="158sp"
+        android:layout_marginTop="576sp"
+        android:background="@color/primary_std"
+        android:rotation="45" />
+
+    <Button
+        android:id="@+id/main_btn_start"
+        android:layout_marginStart="158sp"
+        android:layout_marginTop="576sp"
+        android:text="start"
+        app:cornerRadius="20sp"
+        style="@style/std_btn_style"
+        app:strokeColor="@color/primary_std"
+        app:strokeWidth="2sp" />
+</merge>
